@@ -21,7 +21,10 @@
     "url": "https://github.com/neverendingqs/netlify-express/issues"
   },
   "homepage": "https://github.com/neverendingqs/netlify-express#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express-async-await": "^1.1.0",
+    "node-fetch": "^2.6.1"
+  },
   "devDependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
