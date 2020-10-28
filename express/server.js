@@ -4,9 +4,7 @@ const path = require("path");
 const serverless = require("serverless-http");
 const app = express();
 const bodyParser = require("body-parser");
-const fetch = require("node-fetch");
 const axios = require("axios");
-var async = require("express-async-await");
 
 const router = express.Router();
 router.get("/api", async function(req, res, next) {

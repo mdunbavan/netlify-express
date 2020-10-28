@@ -23,8 +23,7 @@
   "homepage": "https://github.com/neverendingqs/netlify-express#readme",
   "dependencies": {
     "axios": "^0.21.0",
-    "express-async-await": "^1.1.0",
-    "node-fetch": "^2.6.1"
+    "express-async-await": "^1.1.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
