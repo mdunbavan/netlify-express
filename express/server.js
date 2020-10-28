@@ -9,6 +9,7 @@ const axios = require("axios");
 const router = express.Router();
 router.get("/api", async function(req, res, next) {
   res.setHeader("Content-Type", "application/json");
+  res.setHeader("Access-Control-Allow-Origin", "*");
 
   // var requestOptions = {
   //   method: "POST",
@@ -41,7 +42,8 @@ router.get("/api", async function(req, res, next) {
           headers: {
             Authorization:
               "Basic Y2VjNTZhY2UtNTI3ZC00NjIzLWE2ZmEtYmNhMGU1ZWI1ODkwOg==",
-            Accept: "application/json"
+            Accept: "application/json",
+            "Access-Control-Allow-Origin": "*"
           }
         }
       )
